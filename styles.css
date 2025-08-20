@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #A9B4C2;
+    --secondary-color: #1C2321;
+    --tertiary-color: #5E6572;
+    --quaternary-color: #7D98A1; /* cheers to coolors.co! */
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: var(--tertiary-color);
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-bottom: 2px solid black;
+}
+
+.header-inner {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header-left, .header-right {
+    width: 49%;
+}
+
+.header-right {
+    text-align: right;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: normal;
+}
+
+a {
+    color: var(--primary-color);
+}
